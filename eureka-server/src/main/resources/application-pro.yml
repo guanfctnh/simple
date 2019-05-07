@@ -1,0 +1,6 @@
+eureka:
+  #以下两项提高触发自我保护机制的门槛
+  instance:
+    lease-renewal-interval-in-seconds: 10 #默认30
+  server:
+    renewal-percent-threshold: 0.45 #默认0.89
