@@ -1,9 +1,0 @@
-server:
-  port: 6001
-spring:
-  application:
-    name: eureka-server
-  profiles:
-    active: dev
-
-
