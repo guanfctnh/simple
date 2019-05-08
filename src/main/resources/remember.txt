@@ -1,1 +1,2 @@
 eureka-server 注册中心  6001
+config-server 配置中心  7001

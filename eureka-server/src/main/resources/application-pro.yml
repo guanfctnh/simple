@@ -4,3 +4,4 @@ eureka:
     lease-renewal-interval-in-seconds: 10 #默认30
   server:
     renewal-percent-threshold: 0.45 #默认0.89
+    #peer-eureka-nodes-update-interval-ms: 10000 #默认是10分钟即600000，这里为了验证改为10秒
